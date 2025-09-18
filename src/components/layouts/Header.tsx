@@ -9,9 +9,9 @@ const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const navLinks = [
     { href: "/about", label: "企業情報" },
-    { href: "/", label: "BEAUTECHのしごと" },
-    { href: "/", label: "採用情報" },
-    { href: "/", label: "お問い合わせ" },
+    { href: "/business", label: "BEAUTECHのしごと" },
+    { href: "/recruit", label: "採用情報" },
+    { href: "/contact", label: "お問い合わせ" },
   ];
   useEffect(() => {
     const handleScroll = () => {

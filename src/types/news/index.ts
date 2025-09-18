@@ -5,3 +5,4 @@ export interface News {
   date: string;
   isImportant: boolean;
 }
+
