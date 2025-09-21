@@ -18,8 +18,8 @@ const Footer = () => {
   ];
 
   const listItems3 = [
-    { page: "法人のお客様", href: "/corporate" },
-    { page: "個人のお客様", href: "/personal" },
+    { page: "法人のお客様", href: "/contact" },
+    { page: "個人のお客様", href: "/personalcontact" },
   ];
 
   const listItems4 = [
@@ -67,7 +67,16 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="w-full md:w-[25%]">
+
+          <div className="w-full md:w-[17%]">
+            <h4 className="font-normal text-lg md:text-xl mb-0 md:mb-4"><Link href="/informationsecurity">情報セキュリティ</Link></h4>
+          </div>
+
+          <div className="w-full md:w-[17%]">
+            <h4 className="font-normal text-lg md:text-xl mb-0 md:mb-4"><Link href="/marginrate">労働派遣法に基づくマージン率</Link></h4>
+          </div>
+
+          {/*<div className="w-full md:w-[25%]">
             <h4 className="font-normal text-lg md:text-xl mb-4">
               労働派遣法に基づくマージン率
             </h4>
@@ -78,15 +87,15 @@ const Footer = () => {
                 </li>
               ))}
             </ul>
-          </div>
+          </div>*/}
         </div>
 
-        <div className="flex flex-wrap justify-center items-center mt-10 md:mt-0">
+        {/* <div className="flex flex-wrap justify-center items-center mt-10 md:mt-0">
           <Link href="/site-policy" className="text-xs md:text-sm hover:underline">サイトポリシー</Link>
           <span className="mx-4">|</span>
           <Link href="/privacy-policy" className="text-xs md:text-sm hover:underline">プライバシーポリシー</Link>
-        </div>
-        <div className="mt-3 text-xs md:text-sm text-center">
+        </div> */}
+        <div className="mt-10 text-xs md:text-sm text-center">
           Copyright &copy;2025 BEAUTECH株式会社. All rights reserved.
         </div>
       </div>
