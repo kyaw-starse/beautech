@@ -84,7 +84,7 @@ const HistorySectionComponent = () => {
                   PL保険(生産物賠償責任保険)に加入<br />
                 </p>
               </td>
-            </tr> */}
+            </tr>
           </tbody>
         </table>
       </div>
