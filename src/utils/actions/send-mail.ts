@@ -45,7 +45,7 @@ export const sendEmail = async (formData: FormData) => {
             <p>------------------------------------------------------------</p>
             
             <p>BEAUTECH株式会社</p>
-            <p>〒103-0004 東京都中央区東日本橋1丁目3-3 TYDビル 3F</p>
+            <p>〒104-0045 東京都中央区築地6丁目1-9 門跡木村ビル2F</p>
             <p>Email: ${process.env.MAIL_ADMIN_ADDRESS}</p>
             <p>TEL: 03-6661-2879</p>
             <p class="footer">※このメールはシステムから自動送信されています。</p>
@@ -160,7 +160,7 @@ export const sendEmail2 = async (formData: FormData2) => {
             <p>------------------------------------------------------------</p>
             
             <p>BEAUTECH株式会社</p>
-            <p>〒103-0004 東京都中央区東日本橋1丁目3-3 TYDビル 3F</p>
+            <p>〒104-0045 東京都中央区築地6丁目1-9 門跡木村ビル2F</p>
             <p>Email: ${process.env.MAIL_ADMIN_ADDRESS}</p>
             <p>TEL: 03-6661-2879</p>
             <p class="footer">※このメールはシステムから自動送信されています。</p>

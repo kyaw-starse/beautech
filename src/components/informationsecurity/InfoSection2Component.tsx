@@ -11,7 +11,7 @@ const InfoSection2Component = () => {
         </h1>
         <p className="leading-loose text-center mb-2">BEAUTECH 株式会社</p>
         <p className="leading-loose text-center mb-2">苦情及び相談窓口</p>
-        <p className="leading-loose text-center mb-2">〒103-0004 東京都中央区東日本橋1丁目3-3 <br className='md:hidden' />TYDビル 3F</p>
+        <p className="leading-loose text-center mb-2">〒104-0045 東京都中央区築地6丁目1-9 <br className='md:hidden' />門跡木村ビル2F</p>
         <p className="leading-loose text-center mb-2">TEL：03-6661-2879</p>
         <p className="leading-loose text-center mb-2">FAX：02-5207-2956</p>
       </div>

@@ -7,7 +7,7 @@ const CompanyProfileSectionComponent = () => {
       <TitleEngJPComponent titleEn1="COMPANY" titleJp="会社概要" className="mb-6 md:mb-10">
         <span className="text-pinkBrand">P</span>ROFILE
       </TitleEngJPComponent>
-      <div className="md:max-w-[520px] lg:max-w-[680px] mx-auto">
+      <div className="md:max-w-[700px] lg:max-w-[900px] mx-auto">
         <table className="min-w-full">
           <colgroup>
             <col className="w-[30%] md:w-[30%]" />
@@ -28,8 +28,8 @@ const CompanyProfileSectionComponent = () => {
             </tr>
             <tr className="text-sm md:text-base lg:text-xl">
               <td className="px-0 md:px-4 py-3 align-top">設立</td>
-              <td className="px-2 md:px-4 py-3">
-                <p className="leading-relaxed tracking-wider">2018年08月01日</p>
+              <td className="px-0 md:px-4 py-3">
+                <p className="leading-relaxed tracking-wider">2018年08月15日</p>
               </td>
             </tr>
             <tr className="text-sm md:text-base lg:text-xl">

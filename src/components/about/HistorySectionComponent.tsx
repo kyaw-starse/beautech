@@ -6,7 +6,7 @@ const HistorySectionComponent = () => {
       <TitleEngJPComponent titleEn1="" titleJp="沿革" className="mb-6 md:mb-10">
         <span className="text-pinkBrand">H</span>ISTORY
       </TitleEngJPComponent>
-      <div className="md:max-w-[520px] lg:max-w-[680px] mx-auto">
+      <div className="md:max-w-[700px] lg:max-w-[900px] mx-auto">
         <table className="min-w-full">
           <colgroup>
             <col className="w-[20%] md:w-[15%]" />
@@ -14,63 +14,74 @@ const HistorySectionComponent = () => {
           </colgroup>
           <tbody>
             <tr className="text-sm md:text-base lg:text-xl">
-              <td className="px-0 md:px-4 py-3 text-left align-top">2025/09</td>
-              <td className="px-2 md:px-4 py-3">
+              <td className="px-0 md:px-4 py-3 text-left align-top">2018年8月</td>
+              <td className="px-0 md:px-4 py-3 text-left">
                 <p className="leading-relaxed tracking-wider">
-                  ビューテック株式会社として<br className="md:hidden" />現所在地に移転
+                  サンエステクノロジー株式会社として創業資
                   <br />
-                  ホームページリニューアル
+                  本金200万円
                   <br />
-                  損害保険 PL保険加入
+                  本社:東京都江東区大島
                 </p>
               </td>
             </tr>
             <tr className="text-sm md:text-base lg:text-xl">
-              <td className="px-0 md:px-4 py-3 align-top">2024/01</td>
-              <td className="px-2 md:px-4 py-3">
-                <p className="leading-relaxed tracking-wider">西村 茂夫が代表取締役に就任</p>
+              <td className="px-0 md:px-4 py-3 align-top">2022年5月</td>
+              <td className="px-0 md:px-4 py-3">
+                <p className="leading-relaxed tracking-wider">2025年問題に対応すべく、外国籍、日本人の中途採用を本格的に開始した</p>
               </td>
             </tr>
             <tr className="text-sm md:text-base lg:text-xl">
-              <td className="px-0 md:px-4 py-3 align-top">2023/11</td>
-              <td className="px-2 md:px-4 py-3">
-                <p className="leading-relaxed tracking-wider">プライバシーマーク <br className="md:hidden" />第22000-459（01）号 を取得</p>
-              </td>
-            </tr>
-            <tr className="text-sm md:text-base lg:text-xl">
-              <td className="px-0 md:px-4 py-3 align-top">2023/10</td>
-              <td className="px-2 md:px-4 py-3">
+              <td className="px-0 md:px-4 py-3 align-top">2023年6月</td>
+              <td className="px-0 md:px-4 py-3">
                 <p className="leading-relaxed tracking-wider">
-                  労働者派遣事業許可番号<br className="md:hidden" />（派13-316918）を取得
+                  STARTECH株式会社に社名変更
                   <br />
-                  有料職業紹介事業許可番号<br className="md:hidden" />（13-ユ-315806）を取得
+                  資本金を2000万円に増資
+                  <br />
+                  本社:東京都中央区湊
                 </p>
               </td>
             </tr>
             <tr className="text-sm md:text-base lg:text-xl">
-              <td className="px-0 md:px-4 py-3 align-top">2023/07</td>
-              <td className="px-2 md:px-4 py-3">
-                <p className="leading-relaxed tracking-wider">松尾大が代表取締役に就任</p>
-              </td>
-            </tr>
-            <tr className="text-sm md:text-base lg:text-xl">
-              <td className="px-0 md:px-4 py-3 align-top">2018/08</td>
-              <td className="px-2 md:px-4 py-3">
+              <td className="px-0 md:px-4 py-3 align-top">2023年10月</td>
+              <td className="px-0 md:px-4 py-3">
                 <p className="leading-relaxed tracking-wider">
-                  前身となる会社開設
+                  労働者派遣事業許可を取得
                 </p>
               </td>
             </tr>
-            {/* <tr className="text-sm md:text-base lg:text-xl">
-              <td className="px-0 md:px-4 py-3 align-top">2024/06</td>
-              <td className="px-2 md:px-4 py-3">
+            <tr className="text-sm md:text-base lg:text-xl">
+              <td className="px-0 md:px-4 py-3 align-top">2023年11月</td>
+              <td className="px-0 md:px-4 py-3">
+                <p className="leading-relaxed tracking-wider">プライバシーマークを取得</p>
+              </td>
+            </tr>
+            <tr className="text-sm md:text-base lg:text-xl">
+              <td className="px-0 md:px-4 py-3 align-top">2024年1月</td>
+              <td className="px-0 md:px-4 py-3">
+                <p className="leading-relaxed tracking-wider">代表取締役に西村茂夫が就任</p>
+              </td>
+            </tr>
+            <tr className="text-sm md:text-base lg:text-xl">
+              <td className="px-0 md:px-4 py-3 align-top">2024年8月</td>
+              <td className="px-0 md:px-4 py-3">
+                <p className="leading-relaxed tracking-wider">サプリメントECサイトの受託開発をきっかけに、化粧品販売並びに自社サイトでの展開を開始した</p>
+              </td>
+            </tr>
+            <tr className="text-sm md:text-base lg:text-xl">
+              <td className="px-0 md:px-4 py-3 align-top">2025年4月</td>
+              <td className="px-0 md:px-4 py-3">
+                <p className="leading-relaxed tracking-wider">中小企業庁が主催する「第12回事業再構築補助金」に勤怠管理システム Smile勤怠の構築が採択された</p>
+              </td>
+            </tr>
+            <tr className="text-sm md:text-base lg:text-xl">
+              <td className="px-0 md:px-4 py-3 align-top">2025年9月</td>
+              <td className="px-0 md:px-4 py-3">
                 <p className="leading-relaxed tracking-wider">
-                  プライバシーマーク申請中<br />
-                  ホームページリニュアル<br />
-                  住所変更<br />
-                  資本金増資<br />
-                  社名変更<br />
-                  前身となる会社開設
+                  化粧品事業も順調に立上った為、BEAUTECH株式会社に社名変更<br />
+                  本社:東京都中央区築地に移転<br />
+                  PL保険(生産物賠償責任保険)に加入<br />
                 </p>
               </td>
             </tr> */}
