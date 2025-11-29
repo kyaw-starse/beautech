@@ -28,7 +28,7 @@ const CompanyProfileSectionComponent = () => {
             </tr>
             <tr className="text-sm md:text-base lg:text-xl">
               <td className="px-0 md:px-4 py-3 align-top">設立</td>
-              <td className="px-0 md:px-4 py-3">
+              <td className="px-2 md:px-4 py-3">
                 <p className="leading-relaxed tracking-wider">2018年08月15日</p>
               </td>
             </tr>

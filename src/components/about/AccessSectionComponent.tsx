@@ -12,7 +12,7 @@ const AccessSectionComponent = () => {
         <span>所在地：</span>
         <span>東京都中央区築地6丁目1-9 <br className="md:hidden" />門跡木村ビル2F</span>
       </p>
-      <div className="w-full h-[285px] md:h-[570px] px-0 md:px-12 lg:px-16">
+      <div className="w-full h-[300px] md:h-[570px] px-0 md:px-12 lg:px-16">
         <iframe
           src="https://www.google.com/maps?q=東京都中央区築地6丁目1-9 門跡木村ビル2F&hl=ja&output=embed"
           width="100%"
